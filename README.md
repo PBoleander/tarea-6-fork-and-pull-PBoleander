@@ -1,9 +1,13 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6053893&assignment_repo_type=AssignmentRepo)
-# tarea6-peps
+# Tarea 6. Fork y pull request
 
 ## Pascual Barrer Ferrer
 
+## Introducción
+
 En esta práctica repetiremos los pasos de la tarea 5 pero cambiando el modo en el que colaboramos con el repositorio remoto. En el anterior ejercicio clonamos los repositorios en local directamente desde el remoto original. En esta ocasión, lo que haremos será un *fork* a nuestra cuenta de GitHub y lo clonaremos en local. Nunca subiremos cambios al repositorio original directamente, sólo mediante *pull requests*.
+
+## Haciendo el *fork*
 
 Para comenzar nos dirigimos al repositorio original con el que queremos colaborar. En la parte superior derecha de la pantalla vemos tres botones como los de la imagen:
 
@@ -26,6 +30,8 @@ También vemos cómo el contador de *forks* ha pasado de 3 a 4.
 ![](Capturas/04b.png)
 
 Este proyecto ahora ya es nuestro, podemos hacer y deshacer lo que queramos sin afectar en nada al repositorio original. La única manera que tendremos de modificar el original será a través de *pull requests*.
+
+## Clonando nuestro repositorio
 
 Ahora que ya tenemos nuestro repositorio podemos hacer un clon de él en local para trabajar más cómodamente desde nuestro ordenador y con nuestro IDE preferido. El proceso de clonado ya se ha visto repetidas veces en estas tareas y no se va a detallar demasiado. Simplemente, se mostrarán las capturas:
 
@@ -65,6 +71,8 @@ En la anterior captura vemos mediante un `git status` que ya tenemos 5 *commits*
 
 ![](Capturas/13.png)
 
+## Hacemos el *pull request*
+
 Creamos el *pull request* desde la pestaña para tal efecto como ya hicimos en las anteriores prácticas.
 
 ![](Capturas/14.png)
@@ -84,3 +92,5 @@ Repasamos que los cambios realizados son todos los que queríamos hacer y no se 
 ... ¡listo! Nuestro *pull request* ya está en el repositorio original a la espera de revisión por parte de los encargados de mantener ese proyecto.
 
 ![](Capturas/18.png)
+
+Si hay suerte se aceptará tal cual está; si no hay tanta, los cambios a hacer serán menores y si, por el contrario, los cambios son rechazados, se tendrán que hacer mejor la próxima vez.
