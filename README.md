@@ -1,4 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6053893&assignment_repo_type=AssignmentRepo)
 # Tarea 6. Fork y pull request
 
 ## Pascual Barrer Ferrer
@@ -6,6 +5,10 @@
 ## Enlace al repositorio
 
 https://github.com/cifpfbmoll/hello-world-group
+
+## Enlace al vídeo
+
+# TODO Poner el enlace
 
 ## Introducción
 
@@ -98,3 +101,33 @@ Repasamos que los cambios realizados son todos los que queríamos hacer y no se 
 ![](Capturas/18.png)
 
 Si hay suerte se aceptará tal cual está; si no hay tanta, los cambios a hacer serán menores y si, por el contrario, los cambios son rechazados, se tendrán que hacer mejor la próxima vez.
+
+## Revisamos un *pull request*
+
+Vayamos ahora a mirar qué *pull requests* (PR) tenemos para revisar. Para ello nos dirigimos a la pestaña homónima y observamos que hay dos PR todavía abiertos. Elegimos uno.
+
+![](Capturas/19.png)
+
+En él vemos que contiene cinco *commits* con su respectivo mensaje que nos aclara qué aportan al proyecto. Un aspecto importante a destacar de esta pantalla es que nos informa de si la fusión de la rama con `main` se puede realizar limpiamente (sin conflictos que resolver). Si clicamos en la pestaña de *Files changed* podremos ver qué archivos han cambiado, tanto modificaciones como creaciones/deleciones.
+
+![](Capturas/20.png)
+
+En la pestaña de archivos modificados vemos todos los archivos que se han cambiado, las líneas añadidas y las eliminadas. Así, el revisor tiene una visión de todo lo que se ha hecho y puede decidir qué hacer con el *pull request*. En resumen, tenemos 405 líneas añadidas y ninguna eliminada.
+
+![](Capturas/21.png)
+
+Si hacemos clic en el botón verde *Review changes* nos aparece una ventanita en la que podemos comentar los cambios, aprobarlos o pedir cambios antes de que sean aceptados. En este caso, como que todos los cambios son acertados y no presentan ningún conflicto con el código que ya estaba presente en la rama `main`, se decide aprobar los cambios. Clicamos a *Submit review* para hacerlo efectivo.
+
+![](Capturas/22.png)
+
+Nos sale la siguiente pantalla.
+
+![](Capturas/23.png)
+
+Damos clic en el botón verde *Merge pull request* para unir las ramas. Se nos pedirá una confirmación de seguridad y clicamos en *Confirm merge*.
+
+![](Capturas/24.png)
+
+Y ¡listo! Las ramas se han fusionado y los cambios han pasado a producción.
+
+![](Capturas/25.png)
